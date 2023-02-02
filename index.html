@@ -2,143 +2,82 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<link
-			rel="stylesheet"
-			href="./styles/styles.css"
-		/>
-
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link type="text/css" rel="stylesheet" href="./styles/styles.css"/>
 		<title>Super Calculadora</title>
 	</head>
 	<body>
 		<card>
 			<p class="title">Super Calculadora</p>
 			<span class="label">Primeiro Número (A): </span>
-			<input
-				inputmode="numeric"
-				placeholder="Digite o primeiro número"
-				input="number"
-			/>
+			<input id="firstData" type="number" name="name" placeholder="Digite o primeiro número"/>
 			<span class="label">Segundo Número (B): </span>
-			<input
-				inputmode="numeric"
-				placeholder="Digite o segundo número"
-				input="number"
-			/>
+			<input id="secondData" type="number" name="name" placeholder="Digite o segundo número"/>
+			<input type="submit" id="button" value="Calcular"></input>
 		</card>
 		<div class="calculations">
-			<div
-				class="calc"
-				id="sum"
-			>
+			<div class="calc">
 				Soma
-				<p>5</p>
+				<p id="sum"></p>
 			</div>
-			<div
-				class="calc"
-				id="subtractionAB"
-			>
+			<div class="calc">
 				Subtração (A - B)
-				<p>5</p>
+				<p id="subtractionAB"></p>
 			</div>
-			<div
-				class="calc"
-				id="subtractionBA"
-			>
+			<div class="calc">
 				Subtração (B - A)
-				<p>5</p>
+				<p id="subtractionBA"></p>
 			</div>
-			<div
-				class="calc"
-				id="multiplication"
-			>
+			<div class="calc">
 				Multiplicação
-				<p>5</p>
+				<p id="multiplication"></p>
 			</div>
-			<div
-				class="calc"
-				id="divisionAB"
-			>
+			<div class="calc">
 				Divisão A/B
-				<p>5</p>
+				<p id="divisionAB"></p>
 			</div>
-			<div
-				class="calc"
-				id="divisionBA"
-			>
+			<div class="calc">
 				Divisão B/A
-				<p>5</p>
+				<p id="divisionBA"></p>
 			</div>
-			<div
-				class="calc"
-				id="powerAB"
-			>
+			<div class="calc">
 				Potência de A na base B
-				<p>5</p>
+				<p id="powerAB"></p>
 			</div>
-			<div
-				class="calc"
-				id="powerBA"
-			>
+			<div class="calc">
 				Potência de B na base A
-				<p>5</p>
+				<p id="powerBA"></p>
 			</div>
-			<div
-				class="calc"
-				id="sqrt"
-			>
-				Raiz quadrada
-				<p>5</p>
+			<div class="calc">
+				Raiz quadrada da A
+				<p id="sqrtA"></p>
 			</div>
-			<div
-				class="calc"
-				id="sqrtB"
-			>
+			<div class="calc">
 				Raiz quadrada de B
-				<p>5</p>
+				<p id="sqrtB"></p>
 			</div>
-			<div
-				class="calc"
-				id="factorialA"
-			>
+			<div class="calc">
 				Fatorial de A
-				<p>5</p>
+				<p id="factorialA"></p>
 			</div>
-			<div
-				class="calc"
-				id="factorialB"
-			>
+			<div class="calc">
 				Fatorial de B
-				<p>5</p>
+				<p id="factorialB"></p>
 			</div>
-			<div
-				class="calc"
-				id="percentageAB"
-			>
+			<div class="calc">
 				Porcentagem de A em relação a B
-				<p>5</p>
+				<p id="percentageAB"></p>
 			</div>
-			<div
-				class="calc"
-				id="percentageBA"
-			>
+			<div class="calc">
 				Porcentagem de B em relação a A
-				<p>5</p>
+				<p id="percentageBA"></p>
 			</div>
-			<div
-				class="calc"
-				id="average"
-			>
+			<div class="calc">
 				Média
-				<p>5</p>
+				<p id="average"></p>
 			</div>
 		</div>
+        <script defer type="text/javascript" src="./src/index.js"></script>
 	</body>
 </html>
