@@ -1,5 +1,4 @@
-
-##Super-calculator
+Super-calculator
 
 This project was developed to inform the user all main possible information about between 2 numbers given by the user.
 
